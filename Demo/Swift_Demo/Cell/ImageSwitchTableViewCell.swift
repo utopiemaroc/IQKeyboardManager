@@ -6,10 +6,11 @@
 //  Copyright © 2016 Iftekhar. All rights reserved.
 //
 
+
 class ImageSwitchTableViewCell: SwitchTableViewCell {
 
-    @IBOutlet var arrowImageView: UIImageView!
-
+    @IBOutlet var arrowImageView : UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
